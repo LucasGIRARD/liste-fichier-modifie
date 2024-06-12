@@ -1,0 +1,38 @@
+[29-Apr-2020 19:20:16 Europe/Paris] PHP Warning:  scandir(/Applications/AMPPS/www,/Applications/AMPPS/www): Le chemin d�acc�s sp�cifi� est introuvable. (code: 3) in C:\Program Files\Ampps\www\list\index.php on line 46
+[29-Apr-2020 19:20:16 Europe/Paris] PHP Stack trace:
+[29-Apr-2020 19:20:16 Europe/Paris] PHP   1. {main}() C:\Program Files\Ampps\www\list\index.php:0
+[29-Apr-2020 19:20:16 Europe/Paris] PHP   2. getList() C:\Program Files\Ampps\www\list\index.php:86
+[29-Apr-2020 19:20:16 Europe/Paris] PHP   3. scandir() C:\Program Files\Ampps\www\list\index.php:46
+[29-Apr-2020 19:20:16 Europe/Paris] PHP Warning:  scandir(/Applications/AMPPS/www): failed to open dir: No such file or directory in C:\Program Files\Ampps\www\list\index.php on line 46
+[29-Apr-2020 19:20:16 Europe/Paris] PHP Stack trace:
+[29-Apr-2020 19:20:16 Europe/Paris] PHP   1. {main}() C:\Program Files\Ampps\www\list\index.php:0
+[29-Apr-2020 19:20:16 Europe/Paris] PHP   2. getList() C:\Program Files\Ampps\www\list\index.php:86
+[29-Apr-2020 19:20:16 Europe/Paris] PHP   3. scandir() C:\Program Files\Ampps\www\list\index.php:46
+[29-Apr-2020 19:20:16 Europe/Paris] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\Program Files\Ampps\www\list\index.php on line 46
+[29-Apr-2020 19:20:16 Europe/Paris] PHP Stack trace:
+[29-Apr-2020 19:20:16 Europe/Paris] PHP   1. {main}() C:\Program Files\Ampps\www\list\index.php:0
+[29-Apr-2020 19:20:16 Europe/Paris] PHP   2. getList() C:\Program Files\Ampps\www\list\index.php:86
+[29-Apr-2020 19:20:16 Europe/Paris] PHP   3. scandir() C:\Program Files\Ampps\www\list\index.php:46
+[29-Apr-2020 19:20:16 Europe/Paris] PHP Warning:  array_diff(): Argument #1 is not an array in C:\Program Files\Ampps\www\list\index.php on line 46
+[29-Apr-2020 19:20:16 Europe/Paris] PHP Stack trace:
+[29-Apr-2020 19:20:16 Europe/Paris] PHP   1. {main}() C:\Program Files\Ampps\www\list\index.php:0
+[29-Apr-2020 19:20:16 Europe/Paris] PHP   2. getList() C:\Program Files\Ampps\www\list\index.php:86
+[29-Apr-2020 19:20:16 Europe/Paris] PHP   3. array_diff() C:\Program Files\Ampps\www\list\index.php:46
+[29-Apr-2020 19:20:16 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\Program Files\Ampps\www\list\index.php on line 48
+[29-Apr-2020 19:20:16 Europe/Paris] PHP Stack trace:
+[29-Apr-2020 19:20:16 Europe/Paris] PHP   1. {main}() C:\Program Files\Ampps\www\list\index.php:0
+[29-Apr-2020 19:20:16 Europe/Paris] PHP   2. getList() C:\Program Files\Ampps\www\list\index.php:86
+[29-Apr-2020 19:22:50 Europe/Paris] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Program Files\Ampps\www\list\index.php on line 50
+[29-Apr-2020 19:22:50 Europe/Paris] PHP Stack trace:
+[29-Apr-2020 19:22:50 Europe/Paris] PHP   1. {main}() C:\Program Files\Ampps\www\list\index.php:0
+[29-Apr-2020 19:22:50 Europe/Paris] PHP   2. getList() C:\Program Files\Ampps\www\list\index.php:86
+[29-Apr-2020 19:22:50 Europe/Paris] PHP   3. getList() C:\Program Files\Ampps\www\list\index.php:52
+[29-Apr-2020 19:22:50 Europe/Paris] PHP   4. getList() C:\Program Files\Ampps\www\list\index.php:52
+[29-Apr-2020 19:22:50 Europe/Paris] PHP   5. getList() C:\Program Files\Ampps\www\list\index.php:52
+[29-Apr-2020 19:31:07 Europe/Paris] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262102 bytes) in C:\Program Files\Ampps\www\list\index.php on line 68
+[29-Apr-2020 19:31:07 Europe/Paris] PHP Stack trace:
+[29-Apr-2020 19:31:07 Europe/Paris] PHP   1. {main}() C:\Program Files\Ampps\www\list\index.php:0
+[29-Apr-2020 19:31:07 Europe/Paris] PHP   2. getList() C:\Program Files\Ampps\www\list\index.php:88
+[29-Apr-2020 19:31:07 Europe/Paris] PHP   3. getList() C:\Program Files\Ampps\www\list\index.php:54
+[29-Apr-2020 19:31:07 Europe/Paris] PHP   4. getList() C:\Program Files\Ampps\www\list\index.php:54
+[29-Apr-2020 19:31:07 Europe/Paris] PHP   5. getList() C:\Program Files\Ampps\www\list\index.php:54
